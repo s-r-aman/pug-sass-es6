@@ -1,0 +1,16 @@
+.container
+  max-width: 1100px
+  margin: 0 auto
+
+.container--flex
+  display: flex
+
+.container--verticalcenter
+  justify-content: center
+  align-items: center
+
+@media(max-width: $breakpoint)
+  .container
+    max-width: 90%
+  .container--flex
+    flex-direction: column

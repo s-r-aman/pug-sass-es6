@@ -1,0 +1,6 @@
+/node_modules/
+/.vscode/
+/work.log
+/public/dist
+/public/*.html
+/public/assets/
